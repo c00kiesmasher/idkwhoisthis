@@ -10,7 +10,7 @@ local TabKAT = Window:MakeTab({
 })
 
 local SectionKAT = TabKAT:AddSection({
-    Name = "KAT Scriptleri bulunmaktadır. - Ertuxrq"
+    Name = "KAT Scriptleri bulunmaktadır. - Mitamers!"
 })
 
 -- Button: Ertuxrq&Makrit Music
@@ -78,7 +78,7 @@ SectionKAT:AddButton({
 SectionKAT:AddButton({
     Name = "KAT CRASHER",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebinp.com/raw/jfR556Kb", true))()
+        loadstring(game:HttpGet(('https://pastebinp.com/raw/6G9GfqjC'),true))()
         OrionLib:MakeNotification({
             Name = "Başarılı!",
             Content = "KAT CRASHER adlı script çalıştırıldı!",
@@ -96,13 +96,13 @@ local TabMM2 = Window:MakeTab({
 })
 
 local SectionMM2 = TabMM2:AddSection({
-    Name = "MM2 Scriptleri bulunmaktadır. - Ertuxrq"
+    Name = "MM2 Scriptleri bulunmaktadır. - Mitamers!"
 })
 
 -- Button: Byte Hub
 SectionMM2:AddButton({
     Name = "Byte Hub",
-    Content = "Çok özellikli scripttir.",
+    Content = "MM2 Script",
     Callback = function()
         loadstring(game:HttpGet("https://scriptblox.com/raw/Murder-Mystery-2-ByteHub-10357"))()
         OrionLib:MakeNotification({
@@ -197,7 +197,7 @@ local TabArsenal = Window:MakeTab({
 })
 
 local SectionArsenal = TabArsenal:AddSection({
-    Name = "Arsenal Aimbot, ESP Script"
+    Name = "Arsenal Scriptleri bulunmaktadır - Mitamers!"
 })
 
 SectionArsenal:AddButton({
@@ -265,7 +265,7 @@ local TabJailBreak = Window:MakeTab({
 })
 
 local SectionJailBreak = TabJailBreak:AddSection({
-    Name = "Scripts for JailBreak"
+    Name = "Jailbreak Scriptleri bulunmaktadır - Mitamers!"
 })
 
 -- Button: Chaos Client
@@ -290,7 +290,7 @@ local TabLegit = Window:MakeTab({
 })
 
 local SectionLegit = TabLegit:AddSection({
-    Name = "Visuals for KAT! and other games"
+    Name = "Farklı oyunlarda kullanabileceğiniz scriptler - Mitamers!"
 })
 
 -- Button: Unnamed ESP
@@ -311,7 +311,7 @@ SectionLegit:AddButton({
 SectionLegit:AddButton({
     Name = "Lightux (Türkçe)",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebinp.com/raw/w10EJKDX", true))()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/UNIVERSALESPLTX/main/README.md'),true))()
         OrionLib:MakeNotification({
             Name = "Başarılı!",
             Content = "Lightux adlı script çalıştırıldı!",
@@ -333,7 +333,7 @@ local SectionSkyWars = TabSkyWars:AddSection({
 })
 
 SectionSkyWars:AddButton({
-    Name = "SkyWars Script 1",
+    Name = "Yakında",
     Content = "İlk SkyWars Scripti",
     Callback = function()
         loadstring(game:HttpGet("https://example.com/skywars_script_1"))()
@@ -347,7 +347,7 @@ SectionSkyWars:AddButton({
 })
 
 SectionSkyWars:AddButton({
-    Name = "SkyWars Script 2",
+    Name = "Yakında",
     Content = "İkinci SkyWars Scripti",
     Callback = function()
         loadstring(game:HttpGet("https://example.com/skywars_script_2"))()
@@ -361,7 +361,7 @@ SectionSkyWars:AddButton({
 })
 
 SectionSkyWars:AddButton({
-    Name = "SkyWars Script 3",
+    Name = "Yakında",
     Content = "Üçüncü SkyWars Scripti",
     Callback = function()
         loadstring(game:HttpGet("https://example.com/skywars_script_3"))()
@@ -382,7 +382,7 @@ local TabAbout = Window:MakeTab({
 })
 
 local SectionAbout = TabAbout:AddSection({
-    Name = "Ertuxrq&Makrit tarafından yapılmıstır"
+    Name = "Ertuxrq & Makrit tarafından yapılmıştır!"
 })
 
 
@@ -415,9 +415,9 @@ SectionOthers:AddButton({
 -- Final Notification
 OrionLib:MakeNotification({
     Name = "Teşekkürler!",
-    Content = "Scriptimi kullandığın için teşekkür ederim",
+    Content = "Mitamers Hub'u kullandığın için teşekkür ederiz!",
     Image = "rbxassetid://4483345998",
-    Time = 2
+    Time = 5
 })
 
 -- Initialize Orion Library
