@@ -120,8 +120,8 @@ local validKeys = {
     "MİTAMERS-59173628",
     "MİTAMERS-80246193",
     "MİTAMERS-37648591",
-    "MİTAMERS-49018372",
-    "ataturk"
+    "MİTAMERS-FREE",
+    "266"
 }
 
 -- "Doğrula" butonunun scripti
