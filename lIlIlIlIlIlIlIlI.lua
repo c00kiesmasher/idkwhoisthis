@@ -62,9 +62,9 @@ SectionKAT:AddButton({
 })
 
 SectionKAT:AddButton({
-    Name = "AIMBOT",
+    Name = "AimBot V2",
     Callback = function()
-        loadstring(game:HttpGet('https://www.paste.tc/raw/asdasd-899'))()
+        loadstring(game:HttpGet("https://pastebinp.com/raw/ufcyTiby"))()
         OrionLib:MakeNotification({
             Name = "Başarılı!",
             Content = "Aimbot adlı script çalıştırıldı!",
