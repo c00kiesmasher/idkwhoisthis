@@ -1,6 +1,6 @@
 -- Load Orion Library
 local OrionLib = loadstring(game:HttpGet(('https://www.paste.tc/raw/sasa-11138')))()
-local Window = OrionLib:MakeWindow({Name = "Mitamers Hub - Made by Unknown & Makrit enjoy!", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionConfig"})
+local Window = OrionLib:MakeWindow({Name = "Mitamers Hub - Made by Ertu & Makrit enjoy!", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionConfig"})
 
 -- Tab: KAT
 local TabKAT = Window:MakeTab({
@@ -13,7 +13,7 @@ local SectionKAT = TabKAT:AddSection({
     Name = "KAT Scriptleri bulunmaktadır. - Mitamers!"
 })
 
--- Button: Unknown&Makrit Music
+-- Button: Ertuxrq&Makrit Music
 SectionKAT:AddButton({
     Name = "KAT Music",
     Callback = function()
@@ -382,7 +382,7 @@ local TabAbout = Window:MakeTab({
 })
 
 local SectionAbout = TabAbout:AddSection({
-    Name = "Unknown & Makrit tarafından yapılmıştır!"
+    Name = "Ertuxrq & Makrit tarafından yapılmıştır!"
 })
 
 
@@ -406,6 +406,45 @@ SectionOthers:AddButton({
         OrionLib:MakeNotification({
             Name = "Başarılı!",
             Content = "Infinite Yield adlı script çalıştırıldı!",
+            Image = "rbxassetid://4483345998",
+            Time = 2
+        })
+    end
+})
+
+SectionOthers:AddButton({
+    Name = "Reviz Admin",
+    Callback = function()
+        loadstring(game:HttpGet('https://www.paste.tc/raw/asdwqe-967'))()
+        OrionLib:MakeNotification({
+            Name = "Başarılı!",
+            Content = "Reviz adlı script çalıştırıldı!",
+            Image = "rbxassetid://4483345998",
+            Time = 2
+        })
+    end
+})
+
+SectionOthers:AddButton({
+    Name = "R6 Animations",
+    Callback = function()
+        loadstring(game:HttpGet('https://www.paste.tc/raw/asdqweaaas'))()
+        OrionLib:MakeNotification({
+            Name = "Başarılı!",
+            Content = "R6 Animations adlı script çalıştırıldı!",
+            Image = "rbxassetid://4483345998",
+            Time = 2
+        })
+    end
+})
+
+SectionOthers:AddButton({
+    Name = "R15 Animations",
+    Callback = function()
+        loadstring(game:HttpGet('blob:https://paste.sh/0541eb58-16a4-48cb-b22a-85f364fe3f1a'))()
+        OrionLib:MakeNotification({
+            Name = "Başarılı!",
+            Content = "R15 Animations adlı script çalıştırıldı!",
             Image = "rbxassetid://4483345998",
             Time = 2
         })
