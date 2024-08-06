@@ -1,6 +1,6 @@
 -- Load Orion Library
 local OrionLib = loadstring(game:HttpGet(('https://www.paste.tc/raw/sasa-11138')))()
-local Window = OrionLib:MakeWindow({Name = "Mitamers Hub - Made by Ertu & Makrit enjoy!", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionConfig"})
+local Window = OrionLib:MakeWindow({Name = "Mitamers Hub - Made by Unknown & Makrit enjoy!", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionConfig"})
 
 -- Tab: KAT
 local TabKAT = Window:MakeTab({
@@ -13,7 +13,7 @@ local SectionKAT = TabKAT:AddSection({
     Name = "KAT Scriptleri bulunmaktadır. - Mitamers!"
 })
 
--- Button: Ertuxrq&Makrit Music
+-- Button: Unknown & Makrit Music
 SectionKAT:AddButton({
     Name = "KAT Music",
     Callback = function()
@@ -382,7 +382,7 @@ local TabAbout = Window:MakeTab({
 })
 
 local SectionAbout = TabAbout:AddSection({
-    Name = "Ertuxrq & Makrit tarafından yapılmıştır!"
+    Name = "Unknown & Makrit tarafından yapılmıştır!"
 })
 
 
