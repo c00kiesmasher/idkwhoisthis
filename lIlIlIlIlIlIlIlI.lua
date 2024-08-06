@@ -282,45 +282,6 @@ SectionJailBreak:AddButton({
     end
 })
 
--- Tab: Legit
-local TabLegit = Window:MakeTab({
-    Name = "Legit",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-
-local SectionLegit = TabLegit:AddSection({
-    Name = "Farklı oyunlarda kullanabileceğiniz scriptler - Mitamers!"
-})
-
--- Button: Unnamed ESP
-SectionLegit:AddButton({
-    Name = "Unnamed ESP",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP"))()
-        OrionLib:MakeNotification({
-            Name = "Başarılı!",
-            Content = "Unnamed ESP adlı script çalıştırıldı!",
-            Image = "rbxassetid://4483345998",
-            Time = 2
-        })
-    end
-})
-
--- Button: Lightux (Türkçe)
-SectionLegit:AddButton({
-    Name = "Lightux (Türkçe)",
-    Callback = function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/UNIVERSALESPLTX/main/README.md'),true))()
-        OrionLib:MakeNotification({
-            Name = "Başarılı!",
-            Content = "Lightux adlı script çalıştırıldı!",
-            Image = "rbxassetid://4483345998",
-            Time = 2
-        })
-    end
-})
-
 -- Tab: SkyWars
 local TabSkyWars = Window:MakeTab({
     Name = "SkyWars",
@@ -374,18 +335,44 @@ SectionSkyWars:AddButton({
     end
 })
 
--- Tab: Hakkında
-local TabAbout = Window:MakeTab({
-    Name = "Hakkında",
+-- Tab: Legit
+local TabLegit = Window:MakeTab({
+    Name = "Legit",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
-local SectionAbout = TabAbout:AddSection({
-    Name = "Unknown & Makrit tarafından yapılmıştır!"
+local SectionLegit = TabLegit:AddSection({
+    Name = "Farklı oyunlarda kullanabileceğiniz scriptler - Mitamers!"
 })
 
+-- Button: Unnamed ESP
+SectionLegit:AddButton({
+    Name = "Unnamed ESP",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP"))()
+        OrionLib:MakeNotification({
+            Name = "Başarılı!",
+            Content = "Unnamed ESP adlı script çalıştırıldı!",
+            Image = "rbxassetid://4483345998",
+            Time = 2
+        })
+    end
+})
 
+-- Button: Lightux (Türkçe)
+SectionLegit:AddButton({
+    Name = "Lightux (Türkçe)",
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/UNIVERSALESPLTX/main/README.md'),true))()
+        OrionLib:MakeNotification({
+            Name = "Başarılı!",
+            Content = "Lightux adlı script çalıştırıldı!",
+            Image = "rbxassetid://4483345998",
+            Time = 2
+        })
+    end
+})
 
 -- Tab: Others
 local TabOthers = Window:MakeTab({
@@ -449,6 +436,17 @@ SectionOthers:AddButton({
             Time = 2
         })
     end
+})
+
+-- Tab: Hakkında
+local TabAbout = Window:MakeTab({
+    Name = "Hakkında",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local SectionAbout = TabAbout:AddSection({
+    Name = "Unknown & Makrit tarafından yapılmıştır!"
 })
 
 -- Final Notification
