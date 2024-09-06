@@ -1,6 +1,6 @@
 -- Load Orion Library
 local OrionLib = loadstring(game:HttpGet(('https://www.paste.tc/raw/sasa-11138')))()
-local Window = OrionLib:MakeWindow({Name = "Mitamers Hub - Made by Unknown & Makrit enjoy!", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionConfig"})
+local Window = OrionLib:MakeWindow({Name = "Mitamers Hub - Made by Ertuxrq & Makrit enjoy!", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionConfig"})
 
 -- Tab: KAT
 local TabKAT = Window:MakeTab({
