@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://www.paste.tc/raw/sasa-11138')))()
+xxxxlocal OrionLib = loadstring(game:HttpGet(('https://www.paste.tc/raw/sasa-11138')))()
 
 local ScreenGui = Instance.new("ScreenGui")
 local GUI = Instance.new("Frame")
@@ -120,7 +120,8 @@ local validKeys = {
     "MİTAMERS-59173628",
     "MİTAMERS-80246193",
     "MİTAMERS-37648591",
-    "MİTAMERS-49018372"
+    "MİTAMERS-49018372",
+    "MİTAMERS-FREE"
 }
 
 -- "Doğrula" butonunun scripti
