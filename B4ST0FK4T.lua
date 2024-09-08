@@ -18,7 +18,7 @@ OrionLib:MakeNotification({
 })
  
 -- Test Global Variables
-_G.Key = "MITAMERS-FREE",
+_G.Key = "MITAMERS-FREE"
 _G.KeyInput = ""
  
 local function LoadTestHub()
