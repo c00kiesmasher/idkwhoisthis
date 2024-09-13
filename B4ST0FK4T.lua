@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
  
 -- Test Global Variables
 _G.Key = "MİTAMERS-FREE"
-_G.KeyInput = ""
+_G.KeyInput = "Key Girin!"
  
 local function LoadHub()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/c00kiesmasher/idkwhoisthis/main/lIlIlIlIlIlIlIlI.lua"))()
